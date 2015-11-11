@@ -4,7 +4,7 @@
 // @description    Personal preference css improvements
 // @match          http://www.memrise.com/course/*/garden/*
 // @match          http://www.memrise.com/garden/review/*
-// @version        0.0.1
+// @version        0.0.2
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
@@ -24,3 +24,5 @@ sheet.addRule("#central-area", "width: 75%");
 sheet.addRule(".mem.garden", "margin:auto");
 //extend the length of the question row
 sheet.addRule(".question-row .qquestion", "width: 80%");
+//centre the end of session summary
+sheet.addRule(".garden-box.end_of_session", "margin: auto");
