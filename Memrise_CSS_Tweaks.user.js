@@ -4,7 +4,7 @@
 // @description    Personal preference css improvements
 // @match          http://www.memrise.com/course/*/garden/*
 // @match          http://www.memrise.com/garden/review/*
-// @version        0.0.4
+// @version        0.0.5
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
@@ -20,6 +20,8 @@ var sheet = (function() {
 
 //larger central area
 sheet.addRule("#central-area", "width: 75%");
+//longer multiple choice options
+sheet.addRule(".choices li", "width: 45% !important");
 //align mems to the centre
 sheet.addRule(".mem.garden", "margin:auto");
 //extend the length of the question row
