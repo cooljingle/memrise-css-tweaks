@@ -1,4 +1,6 @@
 # Memrise CSS Tweaks
+My effort to make memrise a little nicer to use, the changes are mainly around reducing whitespace to have things fit on the page better.
+
 ### Installation
 
 The easiest method is through an extension/add-on on chrome/firefox:
