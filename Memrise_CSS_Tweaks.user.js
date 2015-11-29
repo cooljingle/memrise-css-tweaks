@@ -3,7 +3,7 @@
 // @namespace      https://github.com/cooljingle
 // @description    Personal preference css improvements
 // @match          http://www.memrise.com/*
-// @version        0.0.6
+// @version        0.0.7
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
@@ -18,17 +18,15 @@ var sheet = (function() {
 })();
 
 //larger central area
-sheet.addRule("#central-area", "width: 75%");
+sheet.addRule(".garden #central-area", "width: calc(100% - 400px)");
 //longer multiple choice options
-sheet.addRule(".choices li", "width: 45% !important");
+sheet.addRule(".garden .garden-box.multiple_choice ol.choices.grid li, .garden-box.video-pre-presentation ol.choices.grid li", "width: calc(50% - 70px)");
 //align mems to the centre
-sheet.addRule(".mem.garden", "margin:auto");
+sheet.addRule(".garden .mem.garden", "margin:auto");
 //extend the length of the question row
-sheet.addRule(".question-row .qquestion", "width: 80%");
+sheet.addRule(".garden .question-row .qquestion", "width: 80%");
 //centre the end of session summary
-sheet.addRule(".garden-box.end_of_session", "margin: auto !important");
-//fix to weird end of session point rendering 
-sheet.addRule(".hovercard .points", "color: cadetblue; position: relative; background-image: none; display: inline");
+sheet.addRule(".garden .garden-box.end_of_session", "margin: auto !important");
 
 
 //changes to dashboard
