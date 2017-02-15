@@ -2,8 +2,8 @@
 // @name           Memrise CSS Tweaks
 // @namespace      https://github.com/cooljingle
 // @description    Personal preference css improvements
-// @match          http://www.memrise.com/*
-// @version        0.0.7
+// @match          https://www.memrise.com/*
+// @version        0.0.8
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
