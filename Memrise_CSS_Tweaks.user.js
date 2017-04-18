@@ -21,8 +21,8 @@ var sheet = (function() {
 sheet.addRule(".garden #central-area", "width: calc(100% - 400px)");
 //longer multiple choice options
 sheet.addRule(".garden .garden-box.multiple_choice ol.choices.grid li, .garden-box.video-pre-presentation ol.choices.grid li", "width: calc(50% - 70px)");
-//align mems to the centre
-sheet.addRule(".garden .mem-area", "width: 535px; margin: auto;");
+//set mem area width to original
+sheet.addRule(".garden .mem-area", "width: 535px");
 //extend the length of the question row
 sheet.addRule(".garden .question-row .qquestion", "width: 80%");
 //centre the end of session summary
