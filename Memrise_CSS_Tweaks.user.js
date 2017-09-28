@@ -3,7 +3,7 @@
 // @namespace      https://github.com/cooljingle
 // @description    Personal preference css improvements
 // @match          https://www.memrise.com/*
-// @version        0.0.9
+// @version        0.0.10
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
@@ -46,3 +46,6 @@ sheet.addRule(".dashboard .course-card-container .course-progress-box .card-top 
 sheet.addRule(".dashboard .course-card-container .course-progress-box .card-top .card-image-col .img-crop", "width: 60px");
 sheet.addRule(".dashboard .course-card-container .course-progress-box .card-top .card-image-col .img-crop .course-photo", "height: 65px");
 sheet.addRule(".dashboard .course-card-container .course-progress-box .card-top .card-image-col .img-crop .category-photo", "bottom: 2px; right: 5px");
+sheet.addRule(".dashboard .course-card-container .course-progress-box .card-top .detail", "min-height: 50px");
+if(MEMRISE.dashboard) //trigger course 'cards' to continually load
+    setInterval(() => $(window).trigger('scroll'), 500);
