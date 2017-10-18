@@ -3,7 +3,7 @@
 // @namespace      https://github.com/cooljingle
 // @description    Personal preference css improvements
 // @match          https://www.memrise.com/*
-// @version        0.0.10
+// @version        0.0.11
 // @updateURL      https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-css-tweaks/raw/master/Memrise_CSS_Tweaks.user.js
 // @grant          none
@@ -30,7 +30,7 @@ sheet.addRule(".garden .garden-box.end_of_session", "margin: auto !important");
 
 
 //changes to dashboard
-sheet.addRule(".dashboard #content .container.container-main", "max-width: 1500px; width: initial");
+sheet.addRule(".dashboard #content .container.container-main", "max-width: 1600px; width: initial");
 sheet.addRule(".dashboard .tabbed-sidebar", "float:none; display: inline-block; vertical-align: top");
 sheet.addRule(".dashboard .tabbed-main", "float: none; margin-left: 20px; max-width: calc(100% - 250px); width: initial; display: inline-block; line-height: 1em");
 sheet.addRule(".dashboard .card-top", "display: inline-block");
